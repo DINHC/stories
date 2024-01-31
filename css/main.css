@@ -60,8 +60,44 @@ ul{
 }
 
 input,
-buttons{
+button{
     font: inherit;
     color: inherit;
     border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+i{
+    font-size: var(--font-size-md);
+}
+
+ /*Theme Color Change */
+body.light-theme{
+    --light-color: #3d3d3d;
+    --light-color-alt: #rgba(0,0,0,.6); 
+    --primary-background-color: #fff; 
+    --secondary-background-color: #f1f1f1;
+    --hover-light-color: #fff;
+    --transparent-light-color: #252830;
+    --transparent-dark-color: rgba(0,0,0.1);
+}
+
+ /*Reusable Classes*/
+
+.container{
+    max-width: 160rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+
+}
+
+.place-items-center{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.screen-sm-hidden{
+    display: none;
 }
