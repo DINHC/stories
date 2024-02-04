@@ -36,7 +36,7 @@ formCloseBtn.addEventListener('click', () => searchContainer.classList.remove('a
 window.addEventListener('keyup', (event) => {
     if(event.key === 'Escape') searchContainer.classList.remove('activated');
 });
-//Close the search for pop on ESC Key
+
 
 //Switch theme/add to local storage
 const bodyElement = document.body;
