@@ -102,6 +102,14 @@ body.light-theme{
     display: none;
 }
 
+.d-grid{
+    display: grid;
+}
+
+.section{
+    padding-block: 5rem;
+}
+
  /*Header*/
 .header{
     background-color: var(--secondary-background-color);
@@ -263,4 +271,59 @@ body.light-theme{
 .search-form-container.activated{
     opacity: 1;
     transform: scale(1);
+}
+
+/* Stories */
+.featured-articles{
+    padding-block: 2rem;
+
+}
+
+.section-header-offset{
+    margin-top: 7.4rem;
+}
+
+.featured-articles-container,
+.featured-content{
+    gap: var(--gap);
+}
+
+.headline-banner{
+    background-color: var(--secondary-background-color);
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+    font-size: var(--font-size-xsm);
+}
+
+.headline{
+    background-color: #000;
+    color: var(--light-color);
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 4px;
+    height: 100%;
+}
+
+.headline span{
+    height: inherit;
+}
+
+.fancy-border{
+    position: relative;
+    overflow: hidden;
+}
+
+.fancy-border::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: var(--gradient-color);
+    background-size: 50% 100%;
+    z-index: 5;
 }
