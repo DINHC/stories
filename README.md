@@ -4,3 +4,8 @@ I aim to first build a plain site and see how I can improve it over time. With t
 Its a combination of a coding and writing project. 
 
 In regards to the stories themselves, they will be short stories that will vary wildly in theme and settings. 
+
+
+
+Citation:
+Code from FreeCodeCamp: Link: https://github.com/jlop007/FreeCodeCamp-NewsFlash/tree/main
