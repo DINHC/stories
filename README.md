@@ -8,4 +8,7 @@ In regards to the stories themselves, they will be short stories that will vary 
 
 
 Citation:
-Code from FreeCodeCamp: Link: https://github.com/jlop007/FreeCodeCamp-NewsFlash/tree/main
+
+Code from FreeCodeCamp: 
+
+Link: https://github.com/jlop007/FreeCodeCamp-NewsFlash/tree/main
